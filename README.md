@@ -10,7 +10,7 @@
  1. `src/components` - base layout components (header, footer, main)
  2. `src/charts` - basic chart components based on chart type (line, bar, pie)
  3. `src/dashboard` - specific charts components for the dashboard page that are using the basic chart components and manages data access layer (API calls)
-- The app is hosted on Vercel and can be accessed at https://vybe-assesment-client-hp0n3vj4s-apolieshchuks-projects.vercel.app/
+- The app is hosted on Vercel and can be accessed at https://vybe-assesment-client.vercel.app/
 ## Running the client app
 
 ```bash
