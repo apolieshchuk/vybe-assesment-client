@@ -12,7 +12,6 @@
  * Do not edit the class manually.
  */
 
-import { mapValues } from '../runtime';
 /**
  * 
  * @export
@@ -43,10 +42,10 @@ export function instanceOfWalletBalanceDto(value: object): value is WalletBalanc
 }
 
 export function WalletBalanceDtoFromJSON(json: any): WalletBalanceDto {
-    return WalletBalanceDtoFromJSONTyped(json, false);
+    return WalletBalanceDtoFromJSONTyped(json);
 }
 
-export function WalletBalanceDtoFromJSONTyped(json: any, ignoreDiscriminator: boolean): WalletBalanceDto {
+export function WalletBalanceDtoFromJSONTyped(json: any): WalletBalanceDto {
     if (json == null) {
         return json;
     }
